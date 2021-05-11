@@ -1,0 +1,176 @@
+body {
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    background-color: #B3B6B7;
+    height:8%;
+}
+
+nav {
+    width: 100%;
+}
+
+nav > ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    color: #273746;
+    padding: 14px 24px;
+    background-color: #BDC3C7;
+    border-radius: 4px;
+    margin-top:-30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a:hover {
+    color: black;
+    background-color: #F0F3F4;
+}
+
+nav li {
+    display: flex;
+    align-items: center;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:50px;
+}
+
+.lesTimbres {
+    width: 850px;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#one {
+    height:100%;
+    width:100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.timbr1 {
+    width:25%;
+}
+
+#two {
+    height:100%;
+    width:100px;
+    display: flex;
+    flex-direction: row;
+}
+
+#three {
+    height:100%;
+    width:100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.forumlapr {
+    height:700px;
+    width:700px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -150px;
+}
+
+.titleF {
+    display:flex;
+    justify-content: center;
+}
+
+h1 {
+    width: 100%;
+    height: 10%;
+    text-transform: uppercase;
+}
+
+.formular {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    height: 500px;
+    margin: 50px;
+}
+
+input {
+    width:70%;
+}
+
+label {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+textarea {
+    width:490px;
+    height:150px;
+}
+
+.titleA {
+    display: flex;
+    justify-content: start;
+    margin-top: -100px;
+    margin-left: 450px;
+}
+
+#presentation {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 250px;
+}
+
+.welcome {
+    margin-left: 450px;
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    text-align: justify;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    background-color: #B3B6B7;
+    border-radius: 3px;
+    width: 100%;
+    height: 18%;
+}
+
+.copyright {
+    width:450px;
+    padding:40px;
+    margin-left:400px;
+}
+
+#elementfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
